@@ -19,7 +19,7 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 @import url("fonts.css");
 
 :root {
-  --Purple: #331D2C;
+  --Purple: #220047;
   --white: #f95b66;
 }
 body,
@@ -104,7 +104,7 @@ ul {
 }
 
 .mathCoLogo {
-  fill: #331D2C;
+  fill: #220047;
   transition: fill 0.5s;
 }
 
@@ -127,12 +127,12 @@ ul {
 }
 
 .purpleLogo .mathCoLogo {
-  fill: #331D2C;
+  fill: #220047;
   transition: fill 0.5s;
 }
 
 .purpleBg .bannerSection {
-  background-color: #331D2C;
+  background-color: #220047;
   padding-top: 90px;
   color: #fff;
 }
@@ -161,8 +161,8 @@ ul {
   display: none;
   font-size: 1em;
   padding: 12px 35px 12px 0;
-  color: #331D2C;
-  border-bottom: 1px solid #331D2C;
+  color: #220047;
+  border-bottom: 1px solid #220047;
   transition: all 1s;
 }
 
@@ -261,7 +261,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 1px;
-  color: #331D2C;
+  color: #220047;
   text-transform: uppercase;
   text-align: center;
   display: block;
@@ -270,7 +270,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .sectionLabel a {
-  color: #331D2C;
+  color: #220047;
 }
 
 .sectionLabel span {
@@ -284,7 +284,7 @@ input[type="search"]::-webkit-search-cancel-button {
   line-height: 108px;
   letter-spacing: 0px;
   text-align: center;
-  color: #331D2C;
+  color: #220047;
   /* margin: 0 auto; */
   margin-left: -4px;
   /* max-width: 70%; */
@@ -323,7 +323,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .scrollDownWrap:hover i::before {
-  color: #331D2C;
+  color: #220047;
 }
 
 .scrollDownWrap i {
@@ -350,7 +350,7 @@ input[type="search"]::-webkit-search-cancel-button {
   text-align: center;
   margin: 0 auto;
   max-width: 86%;
-  color: #331D2C;
+  color: #220047;
   font-weight: 400;
   font-family: "Graphik Compact Web", sans-serif;
 }
@@ -366,7 +366,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .genAISecion.purpleBg {
-  color: #331D2C;
+  color: #220047;
   color: #fff;
 }
 
@@ -384,7 +384,7 @@ section h3 {
   max-width: 100%;
   text-align: center;
   margin: 0 auto;
-  color: #331D2C;
+  color: #220047;
 }
 
 .linkwithIcon {
@@ -478,7 +478,7 @@ section h3 {
 }
 
 .accordion-button.collapsed {
-  color: #331D2C;
+  color: #220047;
 }
 
 .icon-collapseIcon:before {
@@ -518,7 +518,7 @@ section h3 {
 }
 
 .accordion-item {
-  border-bottom: 1px solid #331D2C;
+  border-bottom: 1px solid #220047;
   padding: 32px 0;
 }
 
@@ -547,7 +547,7 @@ section h3 {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   margin: 8px 0 0;
 }
 
@@ -586,7 +586,7 @@ section h3 {
   font-weight: 400;
   line-height: 24px;
   text-align: center;
-  color: #331D2C;
+  color: #220047;
   margin-right: 30px;
 }
 
@@ -622,11 +622,11 @@ section h3 {
   font-weight: 500;
   line-height: 28px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   margin-bottom: 4px;
 }
 .expertDataWrap h4 a {
-  color: #331D2C;
+  color: #220047;
 }
 .expertDataWrap .linkedIn i {
   font-size: 30px;
@@ -638,7 +638,7 @@ section h3 {
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   margin-bottom: 0;
 }
 
@@ -663,7 +663,7 @@ section h3 {
   font-size: 56px;
   line-height: 68px;
   font-weight: 300;
-  color: #331D2C;
+  color: #220047;
   text-align: left;
   margin: 0;
   font-family: "Graphik Compact Web", sans-serif;
@@ -679,7 +679,7 @@ section h3 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  color: #331D2C;
+  color: #220047;
   line-height: 24px;
   /* 150% */
 }
@@ -746,7 +746,7 @@ input::-webkit-input-placeholder {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
-  color: #331D2C;
+  color: #220047;
   margin-top: 24px;
 }
 
@@ -755,7 +755,7 @@ input::-webkit-input-placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #331D2C;
+  color: #220047;
   margin-bottom: 20px;
 }
 
@@ -821,7 +821,7 @@ input::-webkit-input-placeholder {
 
 .submitted-message {
   /* text-align: center; */
-  color: #331D2C;
+  color: #220047;
   font-weight: 500;
   font-size: 24px;
   margin-top: 50px;
@@ -840,7 +840,7 @@ input::-webkit-input-placeholder {
 /* footer style */
 
 footer {
-  background: #331D2C;
+  background: #220047;
   padding: 80px 0 82px;
   color: #f95b66;
 }
@@ -851,7 +851,7 @@ footer .hs-richtext {
 }
 
 footer .hs-form-booleancheckbox .hs-form-booleancheckbox-display input::before {
-  background-color: #331D2C;
+  background-color: #220047;
   border-color: #fff;
 }
 
@@ -1015,7 +1015,7 @@ footer .icon-youtube {
 }
 
 .insightsListSection {
-  background-color: #331D2C;
+  background-color: #220047;
   padding: 104px 0 144px;
   color: #fff;
 }
@@ -1046,7 +1046,7 @@ footer .icon-youtube {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
-  color: #331D2C;
+  color: #220047;
   padding: 4px 8px;
   border-radius: 4px;
   display: inline-block;
@@ -1101,7 +1101,7 @@ footer .icon-youtube {
 }
 
 .specificBlogMainWrapper .insightsListWrapper p {
-  color: #331D2C;
+  color: #220047;
 }
 
 .insightsItemWrap .readMoreArticle,
@@ -1199,7 +1199,7 @@ header > .container-xl {
 .headerBg {
   position: absolute;
   width: 100%;
- background-color: #331D2C;
+ background-color: #220047;
 color: #000000;
 :hover { background-color: #ddb01e; }
 
@@ -1247,7 +1247,7 @@ header li a {
 }
 
 ul.menuListWrapper {
-  border-right: 1px solid #331D2C;
+  border-right: 1px solid #220047;
 }
 
 .nav-down ul.menuListWrapper {
@@ -1350,7 +1350,7 @@ header li:last-child a {
 }
 
 .activeBg {
-  background-color: #331D2C;
+  background-color: #220047;
 }
 
 .icon:before {
@@ -1447,13 +1447,13 @@ header li:last-child a {
 .hs-richtext {
   font-size: 16px;
   line-height: 24px;
-  color: #331D2C;
+  color: #220047;
   margin-bottom: 24px;
 }
 
 .hs-richtext p a,
 .hs-form-booleancheckbox a {
-  color: #331D2C;
+  color: #220047;
   font-weight: 500;
   font-family: "Graphik Compact Web", sans-serif;
 }
@@ -1476,7 +1476,7 @@ header li:last-child a {
   width: 20px;
   height: 20px;
   background-color: #ffa191;
-  border: 1px solid #331D2C;
+  border: 1px solid #220047;
   border-radius: 4px;
   position: absolute;
   display: inline-block;
@@ -1489,7 +1489,7 @@ header li:last-child a {
   .hs-form-booleancheckbox
   .hs-form-booleancheckbox-display
   input::before {
-  background-color: #331D2C;
+  background-color: #220047;
   border: 1px solid #fff;
 }
 
@@ -1505,7 +1505,7 @@ header li:last-child a {
   background: rgba(0, 0, 0, 0);
   top: 5px;
   left: 5px;
-  border: 2px solid #331D2C;
+  border: 2px solid #220047;
   border-top: none;
   border-right: none;
   -webkit-transform: rotate(-45deg);
@@ -1538,13 +1538,13 @@ form input,
 form textarea,
 form select {
   border: 0;
-  border-bottom: 1px solid #331D2C;
+  border-bottom: 1px solid #220047;
   height: 40px;
   background-color: transparent;
   outline: 0 !important;
   width: 100%;
   max-width: 553px;
-  color: #331D2C;
+  color: #220047;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1560,7 +1560,7 @@ form select {
 
 form select {
   background-color: #ffa191 !important;
-  color: #331D2C;
+  color: #220047;
 }
 
 form select option:hover {
@@ -1573,7 +1573,7 @@ form select option:hover {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
 }
 
 .hs-form-field {
@@ -1618,7 +1618,7 @@ form input[type="radio"] {
   content: "";
   width: 20px;
   height: 20px;
-  border: 1px solid #331D2C;
+  border: 1px solid #220047;
   background-color: transparent;
   border-radius: 100%;
   display: block;
@@ -1630,7 +1630,7 @@ form .checkedRadioBtn::before {
   width: 12px;
   height: 12px;
   border-radius: 100%;
-  background-color: #331D2C;
+  background-color: #220047;
   position: absolute;
   left: 4px;
   display: block;
@@ -1686,14 +1686,14 @@ footer .formSection {
 
 form input[type="submit"],
 .btn-secondary {
-  border: 1px solid #331D2C;
+  border: 1px solid #220047;
   width: auto;
   font-size: 14px;
   font-weight: 500;
   line-height: 15.4px;
   letter-spacing: 0.5px;
   text-align: center;
-  color: #331D2C;
+  color: #220047;
   border-radius: 4px !important;
   transition: all 0.2s;
   padding: 8px 16px;
@@ -1768,14 +1768,14 @@ form input[type="submit"],
   line-height: 15px;
   letter-spacing: 0px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .purpleText {
-  color: #331D2C !important;
+  color: #220047 !important;
 }
 
 .whatsNew img {
@@ -1852,7 +1852,7 @@ form input[type="submit"],
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #331D2C;
+  color: #220047;
 }
 
 /* ::-webkit-scrollbar {
@@ -1868,7 +1868,7 @@ form input[type="submit"],
 
 .bannerSection.searchBanner {
   padding: 197px 0 84px;
-  background: #331D2C;
+  background: #220047;
   color: #fff;
   min-height: unset;
 }
@@ -1891,7 +1891,7 @@ form input[type="submit"],
   width: 100%;
   background: #e4eaea;
   border-radius: 15px;
-  color: #331D2C;
+  color: #220047;
   font-family: "Graphik Compact Web", sans-serif;
   font-size: 30px;
   font-style: normal;
@@ -1920,8 +1920,8 @@ form input[type="submit"],
 }
 
 .searchResultWrap .insightInnerContentWrap {
-  /* border-top: 1px solid #331D2C; */
-  border-bottom: 1px solid #331D2C;
+  /* border-top: 1px solid #220047; */
+  border-bottom: 1px solid #220047;
   padding: 18px 0 72px;
   width: 100%;
 }
@@ -1969,7 +1969,7 @@ form input[type="submit"],
   font-weight: 400;
   line-height: 40px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   margin-bottom: 0;
 }
 
@@ -2013,7 +2013,7 @@ form input[type="submit"],
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
-  color: #331D2C;
+  color: #220047;
   padding: 4px 8px;
   text-transform: capitalize;
   display: inline-block;
@@ -2030,12 +2030,12 @@ form input[type="submit"],
   line-height: 16px;
   letter-spacing: 1px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
 }
 
 .currentPageInfo i::before {
   font-size: 20px;
-  color: #331D2C;
+  color: #220047;
   vertical-align: middle;
   margin: 0 12px;
 }
@@ -2063,7 +2063,7 @@ form input[type="submit"],
   line-height: 17.6px;
   letter-spacing: 1px;
   text-align: left;
-  color: #331D2C;
+  color: #220047;
   display: flex;
 }
 
@@ -2107,7 +2107,7 @@ form input[type="submit"],
 }
 
 .autoplay .slick-dots .slick-active button {
-  background-color: #331D2C !important;
+  background-color: #220047 !important;
   opacity: 1;
 }
 
@@ -2264,7 +2264,7 @@ form input[type="submit"],
   height: 20px;
   margin-top: 2px;
   background-color: #fff;
-  border: 1px solid #331D2C;
+  border: 1px solid #220047;
   border-radius: 10px;
   position: absolute;
   display: inline-block;
@@ -2288,7 +2288,7 @@ form input[type="submit"],
   background: rgba(0, 0, 0, 0);
   top: 3px;
   left: 5px;
-  border: 2px solid #331D2C;
+  border: 2px solid #220047;
   border-top: none;
   border-right: none;
   -webkit-transform: rotate(-45deg);
@@ -2308,7 +2308,7 @@ form .hs-form-radio .hs-form-radio-display input {
   height: 20px;
   margin-top: 5px;
   background-color: #ffa191;
-  border: 1px solid #331D2C;
+  border: 1px solid #220047;
   border-radius: 10px;
   position: absolute;
   display: inline-block;
@@ -2318,7 +2318,7 @@ form .hs-form-radio .hs-form-radio-display input {
 }
 .purpleSection .hs-form-radio .hs-form-radio-display input::before {
   border: 1px solid #fff;
-  background-color: #331D2C;
+  background-color: #220047;
 }
 
 form .hs-form-radio-display input[type="radio"]:checked::after {
@@ -2328,7 +2328,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   top: 4px;
   left: 4px;
   border: none;
-  background-color: #331D2C;
+  background-color: #220047;
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -2398,7 +2398,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   padding-left: 30px;
 }
 .leaderBanner {
-  color: #331D2C;
+  color: #220047;
   padding: 170px 0 80px;
 }
 .leaderBanner .expertInfoWrapper {
@@ -2459,10 +2459,10 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 .insightsListSection.inTheNews,
 .inTheNews .insightsItemWrap .readMoreArticle,
 .inTheNews .insightsItemWrap .icon-ArrowForward:before {
-  color: #331D2C;
+  color: #220047;
 }
 .inTheNews .insightDate::before {
-  background-color: #331D2C;
+  background-color: #220047;
 }
 .insightsListSection h4 {
   margin-bottom: 0;
@@ -2497,11 +2497,11 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   font-weight: 300;
   line-height: 68px; /* 121.429% */
   margin-bottom: 48px;
-  color: #331D2C;
+  color: #220047;
   text-align: left;
 }
 .eventListingWrap .allListingsWrap h4 {
-  color: var(--Purple, #331D2C);
+  color: var(--Purple, #220047);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -2509,7 +2509,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   margin-bottom: 8px;
 }
 .eventListingWrap .allListingsWrap p {
-  color: var(--Purple, #331D2C);
+  color: var(--Purple, #220047);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2582,7 +2582,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 }
 .allListingsWrap .listingWrap .topBorder {
   padding-top: 16px;
-  border-top: 1px solid #331D2C;
+  border-top: 1px solid #220047;
 }
 .allListingsWrap .eventItemWrap .linkwithIcon {
   position: absolute;
@@ -2645,7 +2645,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 }
 .servicesMathco {
   padding: 88px 0;
-  color: #331D2C;
+  color: #220047;
 }
 .videoSection h4 {
   text-align: center;
@@ -2689,7 +2689,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   width: 100%;
 }
 #headerFromUsSlider .videoSection h4 {
-  color: #331D2C;
+  color: #220047;
 }
 /* #headerFromUsSlider .videoWrapper {
   margin-right: 40px;
