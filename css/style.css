@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /*
-Theme Name: VividCo
-Theme URI:
-Author: the VividCo team
-Author URI:
-Description: VividCo is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Theme Name: Mathco
+Theme URI: 
+Author: the Mathco team
+Author URI: 
+Description: Mathco is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
 Requires at least: 5.3
 Tested up to: 6.3
 Requires PHP: 5.6
@@ -16,16 +16,16 @@ Text Domain: mathco
 Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 */
-@import url("fonts.css");
+@import url("./fonts/fonts.css");
 
 :root {
   --Purple: #220047;
-  --white: #f95b66;
+  --white: #ffffff;
 }
 body,
 html {
   margin: 0;
-  background: linear-gradient(to bottom, #f1d3ee, #dccebe, #ecddcc);
+  background-color: #e4eaea;
   font-family: "Graphik Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -391,7 +391,7 @@ section h3 {
   font-size: 16px;
   line-height: 17.6px;
   font-weight: 500;
-  color: #f95b66;
+  color: #220047;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -399,9 +399,10 @@ section h3 {
 }
 
 .linkwithIcon:hover {
-  color: #f95b66;}
+  color: #220047;
+}
 .menuListWrapper .linkwithIcon:hover {
-  color: #f95b66;
+  color: #ffffff;
 }
 .linkwithIcon i {
   width: 16px;
@@ -842,7 +843,7 @@ input::-webkit-input-placeholder {
 footer {
   background: #220047;
   padding: 80px 0 82px;
-  color: #f95b66;
+  color: #ffffff;
 }
 
 footer .hs-richtext {
@@ -894,7 +895,7 @@ header .sectionTitle {
 }
 
 .moreMenuWrap ul a {
-  color: #f95b66;
+  color: #ffffff;
   font-family: "Graphik Compact Web", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -987,14 +988,14 @@ header .sectionTitle {
 .socialMediaIconsWrap .twitterIcon {
   width: 20px;
   height: 18px;
-  background-image: url(../images/twitterIncHover.svg);
-  background-image: url(../images/twitterInc.svg);
+  background-image: url(./Icons/twitterIncHover.svg);
+  background-image: url(./Icons/twitterInc.svg);
   background-size: 20px 18px;
   background-repeat: no-repeat;
 }
 
 .socialMediaIconsWrap .twitterIcon:hover {
-  background-image: url(../images/twitterIncHover.svg);
+  background-image: url(./Icons/twitterIncHover.svg);
 }
 
 footer .icon-linkedInInc {
@@ -1023,7 +1024,7 @@ footer .icon-youtube {
 .insightsListWrapper h4,
 .insightsListWrapper label,
 .insightsListWrapper .linkwithIcon {
-  color: #f95b66;
+  color: #ffffff;
 }
 
 .insightsItemWrap {
@@ -1106,7 +1107,7 @@ footer .icon-youtube {
 
 .insightsItemWrap .readMoreArticle,
 .insightsItemWrap .icon-ArrowForward:before {
-  color: #f95b66;
+  color: #ffffff;
 }
 
 .icon-ArrowForward {
@@ -1199,13 +1200,11 @@ header > .container-xl {
 .headerBg {
   position: absolute;
   width: 100%;
- background-color: #220047;
-color: #000000;
-:hover { background-color: #ddb01e; }
-
+  background-color: #220047;
   top: 0;
   left: 0;
   transform-origin: top;
+  width: 100%;
   z-index: -1;
 }
 
@@ -1730,7 +1729,7 @@ form input[type="submit"],
 
 .slick-prev,
 .slick-next {
-  background-image: url("../images/prevIcon.svg");
+  background-image: url("../mathco/Icons/prevIcon.svg");
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -1741,7 +1740,7 @@ form input[type="submit"],
 }
 
 .slick-next {
-  background-image: url("../images/arrowForward.svg");
+  background-image: url("../mathco/Icons/arrowForward.svg");
   background-repeat: no-repeat;
   left: 40px !important;
   margin-left: 16px !important;
