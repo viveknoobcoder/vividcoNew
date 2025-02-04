@@ -684,13 +684,6 @@ $(document).ready(function () {
       });
     }
 
-    if ($(".aboutMathco").length) {
-      $(".aboutMathco .fourthRow .featured.first").each(function () {
-        let firstHeight = $(this).outerHeight();
-        $(this).next(".featured").css({ minHeight: firstHeight });
-      });
-    }
-
     if ($(".outcomesWrap .box").length) {
       let boxHeight = $(".outcomesWrap .box").outerWidth();
       $(".outcomesWrap .box").css({ minHeight: boxHeight });

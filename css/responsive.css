@@ -242,11 +242,6 @@
     margin-right: 16px;
   }
 
-  .mathCoLogo {
-    height: 27px;
-    width: 120px;
-  }
-
   .navbar-toggler {
     height: 32px;
     width: 32px;
@@ -1005,7 +1000,7 @@
   .allListingsWrap .listingWrap .eventItemWrap {
     margin-bottom: 48px;
   }
-  .aboutMathco.videoSection.careerVideoSection {
+  .videoSection.careerVideoSection {
     margin-top: 0;
     padding: 40px 0 80px;
   }
@@ -1014,11 +1009,8 @@
     line-height: 50px;
     margin-bottom: 8px;
   }
-  .servicesMathco.videoSection p {
+  .videoSection p {
     line-height: 24px;
-  }
-  .servicesMathco {
-    padding: 60px 0;
   }
 }
 

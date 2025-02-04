@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 /*
-Theme Name: Mathco
+Theme Name: VividCo
 Theme URI: 
-Author: the Mathco team
+Author: the VividCo team
 Author URI: 
-Description: Mathco is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Description: VividCo is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
 Requires at least: 5.3
 Tested up to: 6.3
 Requires PHP: 5.6
 Version: 1.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: mathco
+Text Domain: VividCo
 Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 */
@@ -103,15 +103,11 @@ ul {
   font-size: 24px;
 }
 
-.mathCoLogo {
-  fill: #220047;
-  transition: fill 0.5s;
-}
 
-.nav-down .mathCoLogo,
-.nav-down.purpleLogo .mathCoLogo,
-.whiteLogo .mathCoLogo,
-.purpleBg .mathCoLogo {
+.nav-down ,
+.nav-down.purpleLogo ,
+.whiteLogo ,
+.purpleBg  {
   fill: #fff;
   transition: fill 0.5s;
 }
@@ -126,7 +122,7 @@ ul {
   border-color: #fff;
 }
 
-.purpleLogo .mathCoLogo {
+.purpleLogo  {
   fill: #220047;
   transition: fill 0.5s;
 }
@@ -1729,7 +1725,7 @@ form input[type="submit"],
 
 .slick-prev,
 .slick-next {
-  background-image: url("../mathco/Icons/prevIcon.svg");
+  background-image: url("../images/prevIcon.svg");
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -1740,7 +1736,7 @@ form input[type="submit"],
 }
 
 .slick-next {
-  background-image: url("../mathco/Icons/arrowForward.svg");
+  background-image: url("../images/arrowForward.svg");
   background-repeat: no-repeat;
   left: 40px !important;
   margin-left: 16px !important;
@@ -1793,15 +1789,6 @@ form input[type="submit"],
   border: 0;
 }
 
-.work-at-mathco {
-  width: 100%;
-  height: 100vh;
-  border: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 .iframeMainWrapper header .linkwithIcon,
 .iframeMainWrapper header .icon-expandMore:before {
   /* color: #fff; */
@@ -1824,7 +1811,7 @@ form input[type="submit"],
   overflow-x: hidden;
 }
 
-.iframeMainWrapper header .mathCoLogo {
+.iframeMainWrapper header  {
   fill: #fff;
 }
 
@@ -2607,14 +2594,14 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 }
 .careerSubPageWrap
   .videoPadding
-  + .aboutMathco.videoSection.secondVideo
+  + .videoSection.secondVideo
   .nucliosVideoWrap {
   display: none;
 }
-.aboutMathco.videoSection.secondVideo .nucliosVideoWrap + .img-fluid {
+.videoSection.secondVideo .nucliosVideoWrap + .img-fluid {
   display: none;
 }
-.careerSubPageWrap .videoPadding + .aboutMathco.videoSection.secondVideo {
+.careerSubPageWrap .videoPadding + .videoSection.secondVideo {
   margin-top: 0;
 }
 /* Temp career learning page second video hide */
@@ -2639,13 +2626,10 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 .openTranscript {
   margin-bottom: 20px;
 }
-.aboutMathco.videoSection.careerVideoSection {
+.videoSection.careerVideoSection {
   padding: 0 0 100px;
 }
-.servicesMathco {
-  padding: 88px 0;
-  color: #220047;
-}
+
 .videoSection h4 {
   text-align: center;
   font-family: "Graphik Compact Web", sans-serif;
@@ -2655,18 +2639,18 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   line-height: 68px;
   margin-bottom: 16px;
 }
-.servicesMathco.videoSection p {
+.videoSection p {
   font-size: 18px;
   line-height: 28px;
 }
-.servicesMathco .nucliosVideoWrap {
+ .nucliosVideoWrap {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
   border-radius: 10px;
 }
-.servicesMathco .responsive-iframe {
+ .responsive-iframe {
   position: absolute;
   top: 0;
   left: 0;

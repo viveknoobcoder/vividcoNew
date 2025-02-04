@@ -6,10 +6,7 @@
     padding-top: 132px !important;
     padding-bottom: 88px;
   }
-  .careerWhyMathco.whyMathco {
-    padding-top: 110px;
-    padding-bottom: 111px;
-  }
+
   
   .careerBanner .featuredImg {
     display: block;
@@ -25,14 +22,14 @@
     font-family: "Graphik Web", sans-serif;
     line-height: 21px;
   }
-  .whyMathcoDescription .featuredImg p {
+   .featuredImg p {
     font-size: 18px;
     line-height: 28px;
     color: #220047;
     margin-bottom: 0;
   }
   
-  .whyMathcoDescription .featuredLabel {
+   .featuredLabel {
     color: #220047;
   }
   
@@ -171,7 +168,7 @@
     border-radius: 10px;
   }
   
-  .whyMathco .featuredImg .featuredDescription:before {
+  .featuredImg .featuredDescription:before {
     border-top: none;
   }
   .hearFromUs {
@@ -233,7 +230,7 @@
     width: 100%;
     height: 100%;
   }
-  .aboutVividco.videoSection .mathcoVideoText h2 {
+  .aboutVividco.videoSection  h2 {
     font-size: 88px;
     line-height: 103px;
     color: #fff;
@@ -259,7 +256,7 @@
     position: relative;
   }
   
-  .aboutVividco.videoSection .videoWrapper .mathcoVideoText {
+  .aboutVividco.videoSection .videoWrapper  {
     position: absolute;
     left: 0;
     right: 0;
@@ -276,20 +273,19 @@
     gap: 32px;
   }
   
-  .aboutVividco.videoSection .videoWrapper .mathcoVideoText .btn-play {
+  .aboutVividco.videoSection .videoWrapper  .btn-play {
     background-color: #220047;
     color: #fff;
     font-weight: 500;
   }
   
-  .aboutVividco.videoSection .videoWrapper .mathcoVideoText .btn-play:hover {
+  .aboutVividco.videoSection .videoWrapper  .btn-play:hover {
     background-color: #fff;
     color: #220047;
   }
   
   .aboutVividco.videoSection
     .videoWrapper
-    .mathcoVideoText
     .btn-play:hover
     svg
     path {
@@ -452,74 +448,71 @@
     opacity: 0.7;
   }
   
-  .careerWhyMathco.whyMathco .featuredWrapper .col-md-6 {
+  .featuredWrapper .col-md-6 {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     padding-right: calc(var(--bs-gutter-x) * 0.5);
   }
+
   
-  .whyMathco {
-    padding-top: 195px;
-  }
-  
-  .whyMathco .borderBeforeAfter::before,
-  .whyMathco .borderBeforeAfter::after,
-  .whyMathco .featuredDescription:before,
-  .whyMathco .featuredDescription:after {
+  .borderBeforeAfter::before,
+  .borderBeforeAfter::after,
+  .featuredDescription:before,
+  .featuredDescription:after {
     border-color: #86a2a2;
   }
   
-  .whyMathco .whyMathcoDescription .borderBeforeAfter::before {
+   .borderBeforeAfter::before {
     border-top: none;
   }
   
-  .whyMathco .featuredImg img {
+  .featuredImg img {
     max-width: fit-content;
     min-height: 456px;
     width: 100%;
     object-fit: cover;
   }
   
-  .whyMathco .featuredDescription:before {
+  .featuredDescription:before {
     border-top: 1px solid #86a2a2;
   }
   
-  .whyMathco .featuredWrapper .featuredDescription {
+  .featuredWrapper .featuredDescription {
     min-height: 520px;
   }
   
-  .whyMathco .featuredWrapper,
+  .featuredWrapper,
   .puttingFun .featuredWrapper {
     padding: 0;
   }
   
-  .whyMathco .featuredImg {
+  .featuredImg {
     padding: 32px;
   }
   
-  .whyMathco .whyMathcoDescription .featuredDescription {
+   .featuredDescription {
     min-height: 124px;
   }
   
-  .whyMathco .whyMathcoDescription .featuredDescription:before {
+   .featuredDescription:before {
     border-top: none;
     border-bottom: 1px solid #86a2a2;
   }
   
-  .whyMathco .whyMathcoDescription .featuredImg ul li {
+   .featuredImg ul li {
     list-style-type: disc;
     font-size: 18px;
     line-height: 28px;
   }
   
-  .whyMathco .whyMathcoDescription .featuredImg {
+   .featuredImg {
     min-height: 192px;
   }
   
-  .whyMathco .whyMathcoDescription .featuredImg.borderBeforeAfter::before {
+   .featuredImg.borderBeforeAfter::before {
     border-bottom: 1px solid #86a2a2;
   }
   
-  .whyMathco .whyMathcoDescription .featuredImg.borderBeforeAfter::after {
+   .featuredImg.borderBeforeAfter::after {
     border-right: 1px solid #86a2a2;
     border-left: none;
   }
@@ -832,7 +825,7 @@
     border-top: none;
     padding-top: 0;
   }
-  .coachTestimony .mathcoIcon {
+  .coachTestimony  {
     margin-top: 19px;
     margin-right: 12px;
   }
@@ -939,7 +932,7 @@
     }
   }
   @media (max-width: 1366px) {
-    .whyMathco .whyMathcoDescription .featuredImg ul li {
+     .featuredImg ul li {
       font-size: 17px;
     }
   
@@ -951,7 +944,7 @@
       font-size: 52px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredDescription {
+     .featuredDescription {
       min-height: 152px;
     }
   }
@@ -965,7 +958,7 @@
       line-height: 40px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredDescription {
+     .featuredDescription {
       min-height: 180px;
     }
     .bgpeachHearUs .testimonyImage {
@@ -1018,15 +1011,15 @@
       line-height: 35px;
     }
   
-    .whyMathco .featuredImg img {
+    .featuredImg img {
       min-height: auto;
     }
   
-    .whyMathco .featuredWrapper .featuredDescription {
+    .featuredWrapper .featuredDescription {
       min-height: 468px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredDescription {
+     .featuredDescription {
       min-height: 180px;
     }
   
@@ -1093,11 +1086,7 @@
       padding: 120px 0;
     }
   
-    .whyMathco {
-      padding-top: 120px;
-    }
-  
-    .whyMathco .whyMathcoDescription .featuredImg ul li {
+     .featuredImg ul li {
       font-size: 15px;
     }
   
@@ -1106,11 +1095,11 @@
       line-height: 30px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredDescription {
+     .featuredDescription {
       min-height: calc(100% - 96px);
     }
       
-    .whyMathcoDescription .featured {
+     .featured {
       height: 100%
     }
   
@@ -1154,7 +1143,7 @@
     .borderRight.mobileNone::after {
       display: none;
     }
-    .coachTestimony .mathcoIcon {
+    .coachTestimony  {
       margin-top: 16px;
       margin-right: 5px;
       margin-bottom: 16px;
@@ -1191,19 +1180,19 @@
     }
   }
   @media (max-width: 767px) {
-    .whyMathco .featuredImg img {
+    .featuredImg img {
       max-height: 250px;
     }
   
-    .whyMathco .featuredImg {
+    .featuredImg {
       min-height: auto;
     }
   
-    .careerWhyMathco.whyMathco .featuredWrapper .featuredDescription {
+    .featuredWrapper .featuredDescription {
       min-height: 275px;
     }
   
-    .whyMathco .whyMathcoDescription.featuredWrapper .featuredDescription {
+    .featuredWrapper .featuredDescription {
       min-height: 180px;
     }
   
@@ -1211,18 +1200,14 @@
       padding-top: 74px !important;
       padding-bottom: 20px;
     }
-    .whyMathcoDescription .featuredImg p {
+     .featuredImg p {
       font-size: 16px;
       line-height: 27.5px;
       color: #220047;
       margin-bottom: 0;
     }
-    .careerWhyMathco.whyMathco .featuredImg {
+    .featuredImg {
       padding: 20px;
-    }
-    .careerWhyMathco.whyMathco {
-      padding-top: 71px;
-      padding-bottom: 71px;
     }
     .careerBanner .featuredImg img {
       max-height: fit-content;
@@ -1347,11 +1332,11 @@
       border-right: 1px solid #937961;
     }
   
-    .whyMathco .whyMathcoDescription .featuredImg.borderBeforeAfter::after {
+     .featuredImg.borderBeforeAfter::after {
       border-left: 1px solid #86a2a2;
     }
   
-    .whyMathco .featuredImg::after {
+    .featuredImg::after {
       border-right: 1px solid #86a2a2;
     }
   
@@ -1377,7 +1362,7 @@
   
     .programSection .container,
     .hearFromUs .container,
-    .whyMathco .container,
+    .container,
     .bgPurpleValues .container,
     .awardsCareers .container,
     .aboutVividco.videoSection .container {
@@ -1426,33 +1411,33 @@
       padding: 56px 0 72px;
     }
   
-    .whyMathco .featuredWrapper .featuredDescription {
+    .featuredWrapper .featuredDescription {
       display: none;
     }
   
-    .whyMathco .featuredImg img {
+    .featuredImg img {
       max-height: max-content;
     }
   
-    .whyMathco .featuredImg {
+    .featuredImg {
       padding: 15px 20px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredImg ul li {
+     .featuredImg ul li {
       font-size: 18px;
       line-height: 27px;
       padding-bottom: 17px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredImg {
+     .featuredImg {
       padding-left: 20px;
     }
   
-    .whyMathco .whyMathcoDescription .featuredLabel {
+     .featuredLabel {
       padding-left: 20px;
     }
   
-    .whyMathco .featuredImg img {
+    .featuredImg img {
       max-height: max-content;
       max-width: inherit;
     }

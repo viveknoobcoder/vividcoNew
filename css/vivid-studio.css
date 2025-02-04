@@ -1,8 +1,8 @@
-r.nucliOSBanner h1{
+.vividStudioBanner h1{
     margin-bottom: 24px;
     margin-left: 0;
 }
-.nucliOSBanner p{
+.vividStudioBanner p{
     margin: 0 auto;
     line-height: 24px;
     text-align: left;
@@ -10,21 +10,21 @@ r.nucliOSBanner h1{
     margin-right: 24px;
 }
 
-.nucliOSBanner img {
+.vividStudioBanner img {
     max-width: 504px;
     max-height: 446px;
     width: 100%;
     padding-top: 50px;
 }
-.nucliOSBanner .sectionLabel,
-.nucliOSBanner h1 {
+.vividStudioBanner .sectionLabel,
+.vividStudioBanner h1 {
     text-align:  left;
     margin-right: 24px;
 }
-.nucliOSBanner h1 {
+.vividStudioBanner h1 {
     margin-bottom: 24px;
 }
-.nucliOSBanner .sectionLabel {
+.vividStudioBanner .sectionLabel {
     padding-top: 50px;
 }
 
@@ -46,33 +46,33 @@ r.nucliOSBanner h1{
 .learnNucliOs .servicesDetailsWrapper{
     padding-top: 56px;
 }
-.possibleWithNucliOs{
+.possibleWithVividStudio{
     padding-top: 0;
     padding-bottom: 104px;
 }
-.possibleWithNucliOs h3{
+.possibleWithVividStudio h3{
     padding-bottom: 91px;
     max-width: 94%;
 }
-.possibleWithNucliOs .featuredWrapper .borderBeforeAfter:before,.possibleWithNucliOs .featuredWrapper .borderBeforeAfter:after,.possibleWithNucliOs .featuredWrapper  .featuredDescription:before, .possibleWithNucliOs .featuredWrapper .featuredDescription:after{
+.possibleWithVividStudio .featuredWrapper .borderBeforeAfter:before,.possibleWithVividStudio .featuredWrapper .borderBeforeAfter:after,.possibleWithVividStudio .featuredWrapper  .featuredDescription:before, .possibleWithVividStudio .featuredWrapper .featuredDescription:after{
     border-color:#86A2A2;
     
 }
-.possibleWithNucliOs .featuredWrapper.alternatePossibleNucliItem .featuredImg::after{
+.possibleWithVividStudio .featuredWrapper.alternatePossibleVividItem .featuredImg::after{
     border-left: 1px solid #86A2A2 !important;
     border-right: none;
 }
-.possibleWithNucliOs .featuredWrapper .featured .featuredLabel label{
+.possibleWithVividStudio .featuredWrapper .featured .featuredLabel label{
     margin-left: 0;
     text-align: left;
     margin-bottom: 0;
     color: #220047;
     text-transform: uppercase;
 }
-.possibleWithNucliOs .featured{
+.possibleWithVividStudio .featured{
     height: 100%;
 }
-.possibleWithNucliOs .featuredWrapper .featured .featuredDescription h6{
+.possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
     font-family: 'Graphik Compact Web', sans-serif;
     
     margin-left: 0;
@@ -82,33 +82,33 @@ r.nucliOSBanner h1{
     font-size: 30px;
     line-height: 40px;
 }
-.possibleWithNucliOs .featuredWrapper .featuredDescription{
+.possibleWithVividStudio .featuredWrapper .featuredDescription{
     height: calc(100% - 80px);
     min-height: auto;
 }
-.possibleWithNucliOs .featuredWrapper .featuredImg{
+.possibleWithVividStudio .featuredWrapper .featuredImg{
     min-height: 463px;
 	height:100%;
 }
-.possibleWithNucliOs .featuredWrapper .featuredImg img{
+.possibleWithVividStudio .featuredWrapper .featuredImg img{
     max-width: 100%;
     max-height: 337px;
 }
-.possibleWithNucliOs .featuredWrapper .featured .featuredDescription a{
+.possibleWithVividStudio .featuredWrapper .featured .featuredDescription a{
     color: #220047;
     margin-top: 32px;
 }
-.possibleWithNucliOs .featuredWrapper{
+.possibleWithVividStudio .featuredWrapper{
     margin-bottom: 88px;
     padding: 0 20px;
 }
-.possibleWithNucliOs  .rightSection.featuredImg::after{
+.possibleWithVividStudio  .rightSection.featuredImg::after{
     border-right: 1px solid #86A2A2;
 }
-.possibleWithNucliOs .rightSection.featuredImg.borderBeforeAfter::after{
+.possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after{
     border-left: 0;
 }
-.possibleWithNucliOs  .featured .linkwithIcon, .possibleWithNucliOs  .linkwithIcon i::before{
+.possibleWithVividStudio  .featured .linkwithIcon, .possibleWithVividStudio  .linkwithIcon i::before{
     color: #220047;
 }
 .peopleTestimony .bg-purple{
@@ -116,7 +116,7 @@ r.nucliOSBanner h1{
     border-radius: 4px;
     padding: 16px 0;
 }
-.alternatePossibleNucliItem .featuredImg::after{
+.alternatePossibleVividItem .featuredImg::after{
     border-right: 1px solid #86A2A2;
     border-left: none;
 }
@@ -279,10 +279,10 @@ line-height: 24px; /* 150% */
 
 
 @media(max-width:1366px){
-    .possibleWithNucliOs .featuredWrapper .featuredDescription{
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
         padding: 16px 32px;
     }
-    .possibleWithNucliOs .featuredWrapper .featured .featuredDescription h6{
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
         font-size: 28px;
     }
     
@@ -296,21 +296,21 @@ line-height: 24px; /* 150% */
     .learnNucliOs .servicesDetailThumbnail{
         /* padding:80px 20px 0; */
     }
-    .nucliOSBanner h1{
+    .vividStudioBanner h1{
         font-size: 70px;
         line-height: 80px;
     }
     
-    .possibleWithNucliOs .featuredWrapper .featured .featuredDescription h6{
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
         font-size: 22px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredImg img{
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
         object-fit: cover;
     }
     .learnNucliOs{
         padding-bottom: 60px;
     }
-    .possibleWithNucliOs{
+    .possibleWithVividStudio{
         padding-bottom: 50px;
     }
     .caseStudyThumnail, .bgPurpleFeatures, .shortSentences{
@@ -322,7 +322,7 @@ line-height: 24px; /* 150% */
         font-size: 50px;
         line-height: 60px;
     }
-    .possibleWithNucliOs h3{
+    .possibleWithVividStudio h3{
         font-size: 60px;
         line-height: 70px;
         padding-bottom: 54px;
@@ -333,24 +333,24 @@ line-height: 24px; /* 150% */
     }
 }
 @media(max-width:992px){
-    .possibleWithNucliOs .featuredWrapper .featured .featuredDescription h6{
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
         font-size: 22px;
         line-height: 32.5px;
     }
     .shortSentences h4{
         margin-bottom: 24px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredDescription {
+    .possibleWithVividStudio .featuredWrapper .featuredDescription {
         min-height: auto;
         height: calc(100% - 56px);
     }
 }
 @media(max-width:834px){
-    .possibleWithNucliOs .featuredWrapper .featured .featuredDescription h6 {
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6 {
         font-size: 19px;
         line-height: 28.5px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredImg img{
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
         object-fit: cover;
     }
 }
@@ -361,7 +361,7 @@ line-height: 24px; /* 150% */
     .caseStudiesSection.caseStudyThumnail{
         padding: 120px 0;
     }
-    .nucliOSBanner h1{
+    .vividStudioBanner h1{
         font-size: 56px;
         line-height: 62px;
     }
@@ -372,22 +372,22 @@ line-height: 24px; /* 150% */
         height: auto;
         /* padding: 80px 20px 0; */
     }
-    .possibleWithNucliOs h3{
+    .possibleWithVividStudio h3{
         font-size: 48px;
         line-height: 52px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredDescription{
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
         padding: 24px 20px;
     }
-    .possibleWithNucliOs .featuredLabel{
+    .possibleWithVividStudio .featuredLabel{
         padding: 20px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredImg{
+    .possibleWithVividStudio .featuredWrapper .featuredImg{
         min-height: auto;
         height: 100%;
         padding: 29px 20px;
     }    
-    .possibleWithNucliOs{
+    .possibleWithVividStudio{
         padding-bottom: 40px;
     }
     .peopleTestimony .bg-purple .leftSection h6{
@@ -397,7 +397,7 @@ line-height: 24px; /* 150% */
     .peopleTestimony .bg-purple .leftSection{
         padding: 20px 0;
     }
-    .possibleWithNucliOs .featuredWrapper{
+    .possibleWithVividStudio .featuredWrapper{
         padding: 0 15px;
     }
     .peopleTestimony .bg-purple .leftSection h6{
@@ -438,11 +438,11 @@ line-height: 24px; /* 150% */
     .learnNucliOs h6{
         padding-top: 10px;
     }
-    .nucliOSBanner img {
+    .vividStudioBanner img {
         display: none;
     }
-    .nucliOSBanner .sectionLabel,
-    .nucliOSBanner h1, .nucliOSBanner p {
+    .vividStudioBanner .sectionLabel,
+    .vividStudioBanner h1, .vividStudioBanner p {
         text-align: center;
         margin-right: 0;
         margin-left: 0;
@@ -456,15 +456,15 @@ line-height: 24px; /* 150% */
     .learnNucliOs{
         padding-bottom: 115px;
     }
-    .possibleWithNucliOs{
+    .possibleWithVividStudio{
         padding-top:0 ;
         padding-bottom: 20px;
     }
-    .possibleWithNucliOs .container {
+    .possibleWithVividStudio .container {
         padding-left: 32px;
         padding-right: 32px;
     }
-    .possibleWithNucliOs h3{
+    .possibleWithVividStudio h3{
         padding-bottom: 40px;
         font-size: 40px;
         line-height: 50px;
@@ -477,30 +477,30 @@ line-height: 24px; /* 150% */
         width: auto; */
     }
     
-    .possibleWithNucliOs .featuredWrapper .featuredImg img{
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
         min-height: 174px;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredImg{
+    .possibleWithVividStudio .featuredWrapper .featuredImg{
         min-height: auto;
         padding: 20px;
     }
-    .possibleWithNucliOs .featuredLabel, .possibleWithNucliOs .featuredDescription{
+    .possibleWithVividStudio .featuredLabel, .possibleWithVividStudio .featuredDescription{
         padding: 24px 20px !important;
     }
-    .possibleWithNucliOs .featuredDescription{
+    .possibleWithVividStudio .featuredDescription{
         font-size: 22px;
         line-height: 30px;
     }
-    .possibleWithNucliOs .featuredWrapper{
+    .possibleWithVividStudio .featuredWrapper{
         padding: 0 ;
     }
-    .possibleWithNucliOs .featuredWrapper .featuredDescription{
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
         min-height: auto;
     }
-    .possibleWithNucliOs .featuredWrapper .featured .featuredDescription a{
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription a{
         padding-bottom: 16px;
     }
-    .possibleWithNucliOs .featuredWrapper{
+    .possibleWithVividStudio .featuredWrapper{
         margin-bottom: 64px;
     }
     
@@ -587,16 +587,16 @@ line-height: 24px; /* 150% */
         line-height: 27px;
         margin-bottom: 32px;
     }
-    .possibleWithNucliOs .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleNucliItem .featuredImg::after {
+    .possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleVividItem .featuredImg::after {
         border-left: 1px solid #86A2A2;
     }
-    .possibleWithNucliOs .featuredWrapper .rightSection.borderBeforeAfter:before, .possibleWithNucliOs .alternatePossibleNucliItem .rightSection.borderBeforeAfter:before{
+    .possibleWithVividStudio .featuredWrapper .rightSection.borderBeforeAfter:before, .possibleWithVividStudio .alternatePossibleVividItem .rightSection.borderBeforeAfter:before{
         border-bottom: none;
     }
     .shortSentences .leftSideContent h4{
         margin-bottom: 16px;
     }
-    .possibleWithNucliOs .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleNucliItem .featuredImg::after{
+    .possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleVividItem .featuredImg::after{
         border-right: 1px solid #86A2A2;
     }
     .peopleTestimony .bg-purple  .authorName{
