@@ -4,37 +4,37 @@
   .bannerSection.articleBanner {
     padding-bottom: 128px;
   }
-  .aboutMathco {
+  .aboutVividco {
     padding: 92px 0 192px;
   }
-  .aboutMathco .featured {
+  .aboutVividco .featured {
     height: 100%;
   }
-  .aboutMathco .featuredLabel label {
+  .aboutVividco .featuredLabel label {
     text-transform: uppercase;
     color: #220047;
   }
-  .aboutMathco .borderBeforeAfter::before,
-  .aboutMathco .borderBeforeAfter::after,
-  .aboutMathco .featuredDescription:before,
-  .aboutMathco .featuredDescription::after {
+  .aboutVividco .borderBeforeAfter::before,
+  .aboutVividco .borderBeforeAfter::after,
+  .aboutVividco .featuredDescription:before,
+  .aboutVividco .featuredDescription::after {
     border-color: #86a2a2;
   }
-  .aboutMathco .firstRow.featuredWrapper .featuredDescription {
+  .aboutVividco .firstRow.featuredWrapper .featuredDescription {
     min-height: auto;
     height: calc(100% - 80px);
   }
-  .aboutMathco .firstRow .featuredImg {
+  .aboutVividco .firstRow .featuredImg {
     min-height: auto;
   }
-  .aboutMathco .firstRow .featuredImg p {
+  .aboutVividco .firstRow .featuredImg p {
     font-size: 18px;
     line-height: 28px;
   }
-  .aboutMathco .secondRow.featuredWrapper .featuredDescription {
+  .aboutVividco .secondRow.featuredWrapper .featuredDescription {
     min-height: 92px;
   }
-  .aboutMathco
+  .aboutVividco
     .secondRow.featuredWrapper
     .col-md-6:first-child
     .featuredDescription::after {
@@ -45,66 +45,66 @@
   .aboutArticle .linkwithIcon {
     font-family: "Graphik Web", sans-serif;
   }
-  .aboutMathco .thirdRow.featuredWrapper .featuredDescription,
-  .aboutMathco .fourthRow.featuredWrapper .featuredDescription {
+  .aboutVividco .thirdRow.featuredWrapper .featuredDescription,
+  .aboutVividco .fourthRow.featuredWrapper .featuredDescription {
     min-height: 160px;
   }
-  .aboutMathco .firstRow .featuredImg.borderBeforeAfter::after {
+  .aboutVividco .firstRow .featuredImg.borderBeforeAfter::after {
     border-left: none;
     border-right: 1px solid #86a2a2;
   }
-  .aboutMathco .fourthRow.featuredWrapper .col-md-6 .featuredDescription {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription {
     min-height: auto;
     height: 100%;
     display: flex;
     align-items: center;
   }
-  .aboutMathco .fourthRow.featuredWrapper .col-md-6 .featuredDescription img {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription img {
     border-radius: 10px;
     height: auto;
   }
-  .aboutMathco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::after {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::after {
     border-left: none;
   }
-  .aboutMathco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::before {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::before {
     border-bottom: none;
   }
   
-  .aboutMathco .fourthRow.featuredWrapper .featuredDescription {
+  .aboutVividco .fourthRow.featuredWrapper .featuredDescription {
     height: 100%;
     /* min-height: 213px; */
     min-height: 150px;
   }
-  .aboutMathco .fourthRow.featuredWrapper .col-md-3 .featured {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-3 .featured {
     min-height: auto;
     height: 50%;
   }
   
-  .aboutMathco .thirdRow.featuredWrapper .featuredDescription {
+  .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
     padding: 32px 22px 32px 30px;
     min-height: auto;
     height: 100%;
   }
-  .aboutMathco
+  .aboutVividco
     .thirdRow.featuredWrapper
     .col-md-3:first-child
     .featuredDescription:after,
-  .aboutMathco
+  .aboutVividco
     .thirdRow.featuredWrapper
     .col-md-3:nth-child(2)
     .featuredDescription:after,
-  .aboutMathco
+  .aboutVividco
     .thirdRow.featuredWrapper
     .col-md-3:nth-child(3)
     .featuredDescription:after,
-  .aboutMathco .fourthRow.featuredWrapper .col-md-6 .featuredDescription:after {
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription:after {
     border-right: none;
   }
-  .aboutMathco .featuredWrapper .featuredDescription p {
+  .aboutVividco .featuredWrapper .featuredDescription p {
     margin-bottom: 0;
     color: #220047;
   }
-  .aboutMathco .featuredWrapper .featuredDescription h6 {
+  .aboutVividco .featuredWrapper .featuredDescription h6 {
     font-size: 30px;
     line-height: 40px;
     font-family: "Graphik Compact Web", sans-serif;
@@ -205,7 +205,7 @@
   }
   
   @media (max-width: 1366px) {
-    .aboutMathco .firstRow .featuredImg p {
+    .aboutVividco .firstRow .featuredImg p {
       font-size: 14px;
       margin-bottom: 20px;
     }
@@ -222,18 +222,18 @@
     }
   }
   @media (max-width: 1199px) {
-    .aboutMathco .firstRow .featuredImg p {
+    .aboutVividco .firstRow .featuredImg p {
       font-size: 14px;
       margin-bottom: 0;
     }
-    .aboutMathco .firstRow .featuredImg {
+    .aboutVividco .firstRow .featuredImg {
       padding-left: 25px;
       padding-right: 25px;
     }
-    .aboutMathco .featuredWrapper .featuredDescription p {
+    .aboutVividco .featuredWrapper .featuredDescription p {
       font-size: 14px;
     }
-    .aboutMathco .featuredWrapper .featuredDescription h6 {
+    .aboutVividco .featuredWrapper .featuredDescription h6 {
       font-size: 26px;
     }
     .expertDataWrap h5 {
@@ -241,23 +241,23 @@
     }
   }
   @media (max-width: 992px) {
-    .aboutMathco .firstRow .featuredImg {
+    .aboutVividco .firstRow .featuredImg {
       padding-top: 30px;
       padding-bottom: 30px;
     }
   }
   /* @media(max-width:834px){
-      .aboutMathco .secondRow.featuredWrapper .featuredDescription{
+      .aboutVividco .secondRow.featuredWrapper .featuredDescription{
           min-height: 110px;
       }
-      .aboutMathco .featuredWrapper .featuredDescription h6{
+      .aboutVividco .featuredWrapper .featuredDescription h6{
           font-size: 25px;
           line-height: 32px;
       }
-      .aboutMathco .thirdRow.featuredWrapper .featuredDescription {
+      .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
           padding: 20px 22px 20px 30px;
       }
-      .aboutMathco, .aboutAAXIC{
+      .aboutVividco, .aboutAAXIC{
           padding: 120px 0;
       }
       .aboutAAXIC h3 {
@@ -266,56 +266,56 @@
       }
   } */
   @media (max-width: 767px) {
-    .aboutMathco {
+    .aboutVividco {
       padding-top: 96px;
     }
     .aboutArticle {
       padding-bottom: 80px !important;
     }
-    .aboutMathco .firstRow .borderBeforeAfter {
+    .aboutVividco .firstRow .borderBeforeAfter {
       padding: 24px 15px;
     }
     .aboutOurCompanyBanner h1 {
       font-size: 48px;
       line-height: 56px;
     }
-    .aboutMathco .firstRow .featuredImg.borderBeforeAfter::before {
+    .aboutVividco .firstRow .featuredImg.borderBeforeAfter::before {
       border-top: none;
     }
-    .aboutMathco .firstRow .featuredImg.borderBeforeAfter::after {
+    .aboutVividco .firstRow .featuredImg.borderBeforeAfter::after {
       border-left: 1px solid #86a2a2;
     }
-    .aboutMathco .firstRow .borderBeforeAfter {
+    .aboutVividco .firstRow .borderBeforeAfter {
       padding-left: 20px;
     }
-    .aboutMathco .firstRow .featuredImg p {
+    .aboutVividco .firstRow .featuredImg p {
       font-size: 18px;
     }
-    .aboutMathco .featuredWrapper .featuredDescription h6 {
+    .aboutVividco .featuredWrapper .featuredDescription h6 {
       font-size: 22px;
     }
-    .aboutMathco .featuredWrapper .featuredDescription p {
+    .aboutVividco .featuredWrapper .featuredDescription p {
       font-size: 16px;
       line-height: 24px;
     }
-    .aboutMathco .featuredWrapper .featuredDescription,
-    .aboutMathco .thirdRow.featuredWrapper .featuredDescription {
+    .aboutVividco .featuredWrapper .featuredDescription,
+    .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
       min-height: auto !important;
       padding: 24px 20px 32px;
     }
-    .aboutMathco
+    .aboutVividco
       .thirdRow.featuredWrapper
       .col-md-3:nth-child(2)
       .featuredDescription:after,
-    .aboutMathco
+    .aboutVividco
       .fourthRow.featuredWrapper
       .col-md-3:first-child
       .featuredDescription:after,
-    .aboutMathco
+    .aboutVividco
       .thirdRow.featuredWrapper
       .col-md-3:first-child
       .featuredDescription:after,
-    .aboutMathco
+    .aboutVividco
       .thirdRow.featuredWrapper
       .col-md-3:nth-child(3)
       .featuredDescription:after {
@@ -513,7 +513,7 @@
     .aboutArticle .typeWrap.date::before {
       display: none;
     }
-    .aboutMathco .fourthRow.featuredWrapper .col-md-3 .featured {
+    .aboutVividco .fourthRow.featuredWrapper .col-md-3 .featured {
       height: auto;
       min-height: auto !important;
     }
