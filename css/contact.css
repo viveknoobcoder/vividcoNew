@@ -6,7 +6,7 @@
     color: #fff;
     font-size: 96px;
     line-height: 108px;
-    font-weight: 300;
+    font-weight: 300 !important;
     font-family: 'Graphik Compact Web', sans-serif;
 }
 .contactBanner .borderBeforeAfter::before, .contactBanner .borderBeforeAfter::after{
